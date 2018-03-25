@@ -130,10 +130,11 @@ function prepareNovel() {
             "Make scrambled eggs.", [jump, "phoneRings"],
             "You&rsquo;re not feeling it anymore. Leave.", [jump, "outsidecar"],
         ],
-        
+
         label, "gohome",
-        williamThoughts, "On second thought, you decideto go back inside.",
+        williamThoughts, "On second thought, you decide to go back inside.",
         scene, "kitchen.png",
+        williamThoughts, "...",
 
         // the phone, the ohone is ringing
         label, "phoneRings",
@@ -183,7 +184,7 @@ function prepareNovel() {
         williamThoughts, "...",
         scene, "answerphone.png",
         william, "...",
-        william, "hello",
+        william, "Hello?",
         phil, "Will?",
         william, "Hey Phil, i-is that... you?",
         phil, "Yeah, it&rsquo;s me, Phil. Listen to me Will. I miss you so much but I&rsquo;ll see you soon, all right? I promise, so just wait for me.",
