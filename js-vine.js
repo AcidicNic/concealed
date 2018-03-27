@@ -1258,8 +1258,6 @@ function novel_changeBackground(param, clearAll)
     {
         setTimeout('novel_finishLoadingBackground("' + effect + '", ' + targetAlpha + ')', 30);
     }
-
-    this.image.setAttribute("id", "novelBackground");
 }
 
 /*
