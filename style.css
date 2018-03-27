@@ -8,20 +8,26 @@ body {
     src: url(Futura.otf);
 }
 
+#novelBackground {
+    width: 1600px;
+    height: 900px;
+}
+
 #novelDiv {
-    width: 1600;
-    height: 900;
+    width: 1600px;
+    height: 900px;
     border: 1px solid black;
     margin: auto;
     position: absolute;
     text-align: center;
+    left: 0;
 }
 
 #dialogDiv {
     font-family: "Futura";
     font-size: 32px;
     position: absolute;
-    width: inherit;
+    width: 1600px;
     height: 20%;
     top: 80%;
     padding: 30px;
