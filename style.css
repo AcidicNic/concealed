@@ -13,9 +13,8 @@ body {
     height: 900px;
     border: 1px solid black;
     margin: auto;
-    position: absolute;
+    position: relative;
     text-align: center;
-    left: 0;
 }
 
 #dialogDiv {
