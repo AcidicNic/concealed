@@ -1,6 +1,7 @@
 body {
     text-align: center;
-    background-color: #000;
+    background-color: #fff;
+    zoom: 80%;
 }
 
 @font-face {
@@ -9,8 +10,8 @@ body {
 }
 
 #novelDiv {
-    width: 1920px;
-    height: 1080px;
+    width: {1920;
+    height: 1080;
     border: 1px solid black;
     margin-left: auto;
     margin-right: auto;
@@ -49,4 +50,6 @@ body {
 
 .menuItem:hover {
     background-color: #4e5359;
+    filter: alpha(opacity=85);
+    opacity: 0.85;
 }
