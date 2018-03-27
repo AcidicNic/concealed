@@ -15,22 +15,6 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>
 */
 var novel_script;
-/*
-    A Character is an actor that can speak and be displayed.
-
-    name: the name of the character
-    escName: the escape() version of name; used as an id="" attribute
-    color: text color for this character
-    image: an Image object containing the image to display
-    imageElement: an <img> element to go into the DOM
-    src: the current source attribute
-    prevSrc: previous source (in order to detect changes)
-    domRef: a reference to the <img> element once inserted into the DOM
-    position: where to display the character
-    prevPosition: last place displayed (in order to detect changes)
-    alpha: transparency (0 = transparent, 1.0 = opaque)
-    visibility: either "visible" or "hidden" (as in CSS)
-*/
 
 function Character(characterName)
 {

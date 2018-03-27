@@ -1,7 +1,7 @@
 body {
     text-align: center;
     background-color: #fff;
-    zoom: 80%;
+    /* zoom: 80%; */
 }
 
 @font-face {
@@ -10,11 +10,11 @@ body {
 }
 
 #novelDiv {
-    width: {1920;
-    height: 1080;
-    border: 1px solid black;
+    width: 90%;
+    height: 90%;
+    /* border: 1px solid black;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
     position: relative;
     text-align: center;
 }
@@ -23,15 +23,16 @@ body {
     font-family: "Futura";
     font-size: 32px;
     position: absolute;
-    width: 97%;
-    height: 170px;
-    top: 850px;
+    width: inherit;
+    height: 20%;
+    margin-top: 70%;
+    /* top: 850px; */
     padding: 30px;
     background-color: #30353a;
     color: white;
     text-align: left;
-    filter: alpha(opacity=80);
-    opacity: 0.8;
+    filter: alpha(opacity=75);
+    opacity: 0.75;
 }
 
 .menuItem {
@@ -45,11 +46,10 @@ body {
     padding: 0.5em 3em;
     -moz-border-radius: 15px;
     border-radius: 7px;
-    bottom:0;
 }
 
 .menuItem:hover {
     background-color: #4e5359;
-    filter: alpha(opacity=85);
-    opacity: 0.85;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
 }

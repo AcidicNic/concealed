@@ -1,4 +1,4 @@
-//vs-vine stuff
+//vs-vine img preloading stuff
 var preload = [
     "blep.jpg", "titlescreen.jpg", "easteregg.png",
     "awake.jpg", "lookup.jpg", "kitchen.png",
