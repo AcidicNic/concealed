@@ -22,9 +22,9 @@ body {
     font-family: "Futura";
     font-size: 32px;
     position: absolute;
-    width: 97%;
-    height: 170px;
-    top: 850px;
+    width: inherit;
+    height: 20%;
+    top: 80%;
     padding: 30px;
     background-color: #30353a;
     color: white;
