@@ -9,12 +9,11 @@ body {
 }
 
 #novelDiv {
-    width: 900;
-    /* height: 90%;
-    border: 1px solid black; */
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+    width: 1600;
+    height: 900;
+    border: 1px solid black;
+    margin: auto;
+    position: absolute;
     text-align: center;
 }
 
