@@ -1259,7 +1259,7 @@ function novel_changeBackground(param, clearAll)
         setTimeout('novel_finishLoadingBackground("' + effect + '", ' + targetAlpha + ')', 30);
     }
 
-    novel.backgroundImage.setAttribute("id", "novelBackground");
+    this.image.setAttribute("id", "novelBackground");
 }
 
 /*
