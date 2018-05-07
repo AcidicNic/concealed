@@ -30,7 +30,7 @@ function prepareNovel() {
 //chars
     mom = new Character("Mom", {color: "#d66290"});
     phil = new Character("Phil", {color: "#4298f4"});
-    william = new Character("Will", {color: "#564539"});
+    william = new Character("Will", {color: "#eab57c"});
     williamThoughts = new Character("");
     turtleGods = new Character("TORT GOD", {color: "#1c9336"});
 

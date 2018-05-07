@@ -26,11 +26,11 @@ body {
 
 #dialogDiv {
     font-family: "Futura";
-    font-size: 26px;
+    font-size: 22px;
     position: absolute;
-    width: 1200;
-    height: 15%;
-    top: 80%;
+    width: 1200px;
+    height: 260px;
+    margin-top: 415px;
     padding: 30px;
     background-color: #30353a;
     color: white;
@@ -41,7 +41,7 @@ body {
 
 .menuItem {
     font-family: "Futura";
-    font-size: 22px;
+    font-size: 18px;
     background-color: #1e2226;
     color: white;
     text-align: center;
