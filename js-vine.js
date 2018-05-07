@@ -293,7 +293,7 @@ function TextBlock(textName)
     this.position = new Position(0, 0, true);
     this.align = "left";
     this.font = '20px "Deja Vu Sans", Helvetica, Arial, sans-serif';
-    this.width = 1.0; // decimal percentage
+    this.width = .9; // decimal percentage
     this.visibility = "visible";
     this.text = "";
 
@@ -491,7 +491,7 @@ function Input(textName)
     this.position = new Position(0, 0, true);
     this.align = "left";
     this.font = '20px "Deja Vu Sans", Helvetica, Arial, sans-serif';
-    this.width = 1.0; // decimal percentage
+    this. = 1.0; // decimal percentage
     this.visibility = "visible";
     this.text = "";
 
@@ -1587,7 +1587,7 @@ function jsCall(jsInfo)
 
 /*
     Initialize the novel object; the parameters w and h are
-    the width and height of the <div id="novel">.
+    the  and height of the <div id="novel">.
     The prepareNovel() function is provided by the script author;
     it sets up characters and text blocks. Always start the novel
     at the label "start".
