@@ -1,5 +1,5 @@
 body {
-    text-align: center;
+    text-align: left;
     background-color: #3D4D5A;
     width: 1200px;
     height: 675px;
@@ -19,8 +19,6 @@ body {
     width: 1200px;
     height: 675px;
     border: 1px solid black;
-    /* margin: auto; */
-    position: relative;
     text-align: center;
 }
 
