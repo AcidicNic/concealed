@@ -1205,7 +1205,7 @@ function novel_changeBackground(param, clearAll)
     var effect;
     var targetAlpha = 1.0;
     var bg;
-    param.setAttribute("id", "background");
+
     if (clearAll)
     {
         clearTableau();
@@ -1237,6 +1237,7 @@ function novel_changeBackground(param, clearAll)
         novel.backgroundImage[novel.activeBG] = fileName;
         bg = document.getElementById("background" + novel.activeBG);
         bg.src = novel.imagePath + fileName;
+        bg.setAttribute("id", "background");
         novel.pendingBackgroundImage = bg;
         novel.paused = true;
     }
