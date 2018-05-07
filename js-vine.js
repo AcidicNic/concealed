@@ -26,7 +26,7 @@ function Character(characterName)
     this.escName = escape(characterName);
     this.color = "#000000";
     this.image = new Image();
-    this.imageElement = createElement("img");
+    this.imageElement = document.createElement("img");
     this.imageElement.setAttribute("id", this.escName);
     this.src = null;
     this.prevSrc = null;
@@ -120,7 +120,7 @@ Character.prototype.finishDisplay = function(param, displayImage)
             this.imageElement.style.visibility = 'hidden';
             novel.tableau.appendChild(this.imageElement);
             novel.actors.push(this);
-            this.domRef = getElementById(this.escName);
+            this.domRef = document.getElementById(this.escName);
             el = this.domRef;
             changed = true;
         }
@@ -293,7 +293,7 @@ function TextBlock(textName)
     this.position = new Position(0, 0, true);
     this.align = "left";
     this.font = '20px "Deja Vu Sans", Helvetica, Arial, sans-serif';
-    this.width = .9; // decimal percentage
+    this.width = 1.0; // decimal percentage
     this.visibility = "visible";
     this.text = "";
 
@@ -491,7 +491,7 @@ function Input(textName)
     this.position = new Position(0, 0, true);
     this.align = "left";
     this.font = '20px "Deja Vu Sans", Helvetica, Arial, sans-serif';
-    this. = 1.0; // decimal percentage
+    this.width = 1.0; // decimal percentage
     this.visibility = "visible";
     this.text = "";
 
@@ -1237,7 +1237,6 @@ function novel_changeBackground(param, clearAll)
         novel.backgroundImage[novel.activeBG] = fileName;
         bg = document.getElementById("background" + novel.activeBG);
         bg.src = novel.imagePath + fileName;
-        bg.setAttribute("id", "background");
         novel.pendingBackgroundImage = bg;
         novel.paused = true;
     }
@@ -1587,7 +1586,7 @@ function jsCall(jsInfo)
 
 /*
     Initialize the novel object; the parameters w and h are
-    the  and height of the <div id="novel">.
+    the width and height of the <div id="novel">.
     The prepareNovel() function is provided by the script author;
     it sets up characters and text blocks. Always start the novel
     at the label "start".
