@@ -3,6 +3,11 @@ body {
     background-color: #fff;
 }
 
+#background {
+    width: 1200px;
+    height: 675px;
+}
+
 @font-face {
     font-family: 'Futura';
     src: url(Futura.otf);
