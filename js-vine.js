@@ -26,7 +26,7 @@ function Character(characterName)
     this.escName = escape(characterName);
     this.color = "#000000";
     this.image = new Image();
-    this.imageElement = document.createElement("img");
+    this.imageElement = createElement("img");
     this.imageElement.setAttribute("id", this.escName);
     this.src = null;
     this.prevSrc = null;
@@ -120,7 +120,7 @@ Character.prototype.finishDisplay = function(param, displayImage)
             this.imageElement.style.visibility = 'hidden';
             novel.tableau.appendChild(this.imageElement);
             novel.actors.push(this);
-            this.domRef = document.getElementById(this.escName);
+            this.domRef = getElementById(this.escName);
             el = this.domRef;
             changed = true;
         }
@@ -1205,7 +1205,7 @@ function novel_changeBackground(param, clearAll)
     var effect;
     var targetAlpha = 1.0;
     var bg;
-
+    param.setAttribute("id", "background");
     if (clearAll)
     {
         clearTableau();
