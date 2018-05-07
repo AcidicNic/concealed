@@ -9,8 +9,8 @@ body {
 }
 
 #novelDiv {
-    width: 1600px;
-    height: 900px;
+    width: 1200px;
+    height: 675px;
     border: 1px solid black;
     /* margin: auto; */
     position: relative;
@@ -21,7 +21,7 @@ body {
     font-family: "Futura";
     font-size: 32px;
     position: absolute;
-    width: 1600px;
+    width: 1200;
     height: 20%;
     top: 80%;
     padding: 30px;
@@ -38,7 +38,7 @@ body {
     background-color: #1e2226;
     color: white;
     text-align: center;
-    width: 80%;
+    width: 75%;
     margin: 0.5em auto;
     padding: 0.5em 3em;
     -moz-border-radius: 15px;
