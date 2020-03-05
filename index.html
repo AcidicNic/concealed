@@ -1,5 +1,4 @@
 <html lang="en">
-
 <head>
 
     <title>Concealed</title>
@@ -8,28 +7,37 @@
     <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
+    <!-- js-vine found here: https://github.com/jdeisenberg/js-vine -->
+    <script type="text/javascript" src="http://langintro.com/js-vine/js-vine.js"></script>
+    <!-- The Concealed Story -->
+    <script type="text/javascript" src="concealed.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- My CSS -->
     <link rel="stylesheet" type="text/css" href="style.css"/>
 
-    <script type="text/javascript" src="concealed.js"></script>
-    <script type="text/javascript" src="js-vine.js"></script>
+    <script>
+        function startNovel() {
+            let novel = document.getElementById("novelDiv");
+            initNovel(novel.style.height, novel.style.width);
+        }
+
+    </script>
+
 </head>
-
-<body onload="initNovel(1200, 675);">
-
-    <div id="novelDiv">
-
-        <div style="position: absolute;left:0; top: 0; z-index:-1">
-            <img id="background0" src="images/blep.jpg">
+<body onload="startNovel()" class="bg-dark">
+    <div class="main_wrapper mt-4">
+        <div class="m-auto text-white aspect_ratio" id="novelDiv">
+             <div style="position: absolute; z-index:-1; top: 0;">
+                <img class="aspect_ratio" id="background0" alt="" src="">
+            </div>
+             <div class="img_div">
+                <img class="aspect_ratio" id="background1" alt="" src="">
+            </div>
+            <div class="mt-auto p-4" id="dialogDiv" style="z-index:100"></div>
         </div>
-
-        <div style="position: absolute; left:0; top: 0; z-index:-1">
-            <img id="background1" src="images/blep.jpg">
-        </div>
-
-        <div id="dialogDiv" style="z-index:100"> </div>
-
     </div>
-
 </body>
-
 </html>

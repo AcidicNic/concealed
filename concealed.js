@@ -16,6 +16,7 @@ for (var i = 0; i < preload.length; i++)
 }
 
 //char vars
+var william;
 var phil;
 var mom;
 var williamThoughts;
@@ -136,7 +137,7 @@ function prepareNovel() {
         scene, "kitchen.png",
         williamThoughts, "...",
 
-        // the phone, the ohone is ringing
+        // the phone, the phone is ringing
         label, "phoneRings",
         scene, "phoneoff.png",
         williamThoughts, "...",
