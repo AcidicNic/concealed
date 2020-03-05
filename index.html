@@ -1,0 +1,40 @@
+<html lang="en">
+    <head>
+        <title>Concealed</title>
+
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="src/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="src/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="src/favicon/favicon-16x16.png">
+        <link rel="manifest" href="src/favicon/site.webmanifest">
+
+        <!-- js-vine found here: https://github.com/jdeisenberg/js-vine -->
+        <script type="text/javascript" src="src/js-vine.js"></script>
+
+        <!-- The Concealed Story -->
+        <script type="text/javascript" src="concealed.js"></script>
+
+        <!-- JS functions to auto resize the game when the window size changes -->
+        <script type="text/javascript" src="concealed_helpers.js"></script>
+
+        <!-- Bootstrap 4 -->
+        <link rel="stylesheet" href="src/bootstrap.min.css">
+
+        <!-- Extra Styles -->
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+
+    </head>
+    <body onload="startNovel()" class="bg-dark">
+        <div class="main_wrapper">
+            <div class="m-auto text-white aspect_ratio" id="novelDiv">
+                 <div class="img_div">
+                    <img class="aspect_ratio" id="background0" src="">
+                </div>
+                 <div class="img_div">
+                    <img class="aspect_ratio" id="background1" src="">
+                </div>
+                <div class="mt-auto p-4" id="dialogDiv"></div>
+            </div>
+        </div>
+    </body>
+</html>
