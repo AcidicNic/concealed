@@ -2,7 +2,7 @@
 A short choose your own adventure game with a cute twist ending (...if you get to the real ending!)
 
 ## How can I try it?
-[You can play in your browser here!](https://acidicnic.github.io/concealed/)
+You can play in your browser [here](https://acidicnic.github.io/concealed/)!
 
 
 ## Hackathon Info
